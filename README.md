@@ -11,6 +11,10 @@ You can merge them with the following command :
 ```
 cat dataset-anonymized-part0* > dataset-anonymized.tar.gz
 ```
+You can check the archive has been correctly merged with the md5 checksum in dataset-anonymized.tar.gz.md5 :
+```
+md5sum dataset-anonymized.tar.gz
+```
 
 ## Usage
 This archives contains a training set and a test set, respectively 'anonymized_train.h5' and 'anonymized_test.h5'.
